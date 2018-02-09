@@ -8,15 +8,13 @@
       "name": "Python",
       "type": "python",
       "request": "launch",
-      "stopOnEntry": true,
+      "stopOnEntry": false,
       "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
       "cwd": "${workspaceFolder}",
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput"
-      ]
+      "debugOptions": ["RedirectOutput"]
     },
     {
       "name": "Python: Attach",
@@ -62,17 +60,10 @@
       "pythonPath": "${config:python.pythonPath}",
       "program": "${workspaceFolder}/manage.py",
       "cwd": "${workspaceFolder}",
-      "args": [
-        "runserver",
-        "--noreload",
-        "--nothreading"
-      ],
+      "args": ["runserver", "--noreload", "--nothreading"],
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput",
-        "DjangoDebugging"
-      ]
+      "debugOptions": ["RedirectOutput", "DjangoDebugging"]
     },
     {
       "name": "Python: Flask (0.11.x or later)",
@@ -80,20 +71,15 @@
       "request": "launch",
       "stopOnEntry": false,
       "pythonPath": "${config:python.pythonPath}",
-      "program": "fully qualified path fo 'flask' executable. Generally located along with python interpreter",
+      "program":
+        "fully qualified path fo 'flask' executable. Generally located along with python interpreter",
       "cwd": "${workspaceFolder}",
       "env": {
         "FLASK_APP": "${workspaceFolder}/quickstart/app.py"
       },
-      "args": [
-        "run",
-        "--no-debugger",
-        "--no-reload"
-      ],
+      "args": ["run", "--no-debugger", "--no-reload"],
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput"
-      ]
+      "debugOptions": ["RedirectOutput"]
     },
     {
       "name": "Python: Flask (0.10.x or earlier)",
@@ -106,9 +92,7 @@
       "args": [],
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput"
-      ]
+      "debugOptions": ["RedirectOutput"]
     },
     {
       "name": "Python: PySpark",
@@ -128,9 +112,7 @@
       "cwd": "${workspaceFolder}",
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput"
-      ]
+      "debugOptions": ["RedirectOutput"]
     },
     {
       "name": "Python: Module",
@@ -142,9 +124,7 @@
       "cwd": "${workspaceFolder}",
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput"
-      ]
+      "debugOptions": ["RedirectOutput"]
     },
     {
       "name": "Python: Pyramid",
@@ -155,13 +135,8 @@
       "cwd": "${workspaceFolder}",
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "args": [
-        "${workspaceFolder}/development.ini"
-      ],
-      "debugOptions": [
-        "RedirectOutput",
-        "Pyramid"
-      ]
+      "args": ["${workspaceFolder}/development.ini"],
+      "debugOptions": ["RedirectOutput", "Pyramid"]
     },
     {
       "name": "Python: Watson",
@@ -171,16 +146,10 @@
       "pythonPath": "${config:python.pythonPath}",
       "program": "${workspaceFolder}/console.py",
       "cwd": "${workspaceFolder}",
-      "args": [
-        "dev",
-        "runserver",
-        "--noreload=True"
-      ],
+      "args": ["dev", "runserver", "--noreload=True"],
       "env": {},
       "envFile": "${workspaceFolder}/.env",
-      "debugOptions": [
-        "RedirectOutput"
-      ]
+      "debugOptions": ["RedirectOutput"]
     }
   ]
 }
