@@ -7,7 +7,7 @@ totalProbability = 0
 
 
 def isNodeInT(T, node):
-    return True if T[bisect(T, node)-1] == node else False
+    return True if T[bisect(T, node) - 1] == node else False
 
 
 def isNextInT(T, lastVisitedFromT, node):
@@ -55,7 +55,7 @@ def visitSomeNode(T, mainMap, listIndex=1, visitedSet=set(), runningProbability=
         if len(unvisitedSet) is 0:
             return
         else:
-            newProbability = 1/len(unvisitedSet)
+            newProbability = 1 / len(unvisitedSet)
         for node in unvisitedSet:
             nodeInT = isNodeInT(T, node)
 
@@ -65,10 +65,10 @@ def visitSomeNode(T, mainMap, listIndex=1, visitedSet=set(), runningProbability=
             visitedSet.add(node)
             if not nodeInT:
                 visitSomeNode(T, mainMap, node, visitedSet,
-                              runningProbability*newProbability, lastVisitedFromT)
+                              runningProbability * newProbability, lastVisitedFromT)
             if nodeInT and isNextInT(T, lastVisitedFromT, node):
                 visitSomeNode(T, mainMap, node, visitedSet,
-                              runningProbability*newProbability, node)
+                              runningProbability * newProbability, node)
             visitedSet.remove(node)
 
 
@@ -76,7 +76,7 @@ def solve():
     n, k = [int(i) for i in input().split()]
     T = [int(i) for i in input().split()]
     mainMap = {}
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         mainMap[i] = [int(i) for i in input().split()][1:]
     visitSomeNode(T, mainMap)
     print(totalProbability)
