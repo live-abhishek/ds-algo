@@ -6,6 +6,8 @@ sys.stdin = open('input.txt')
 
 def findShiftedPairs(codedSet, e):
     shifts = []
+
+    
     for i in range(len(e) - 1, 0, -1):
         shifts.append(e[i:] + e[:i])
     shiftedPairs = set()
