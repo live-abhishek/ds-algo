@@ -1,4 +1,5 @@
 import socket
+import threading
 
 
 class ChatClient:
@@ -14,6 +15,7 @@ class ChatClient:
 
 class ChatServer:
     def __init__(self):
+        self.lock = threading.Lock()
         self.clients = []
         self.host = socket.gethostname()
         self.port = 4561
@@ -35,15 +37,23 @@ class ChatServer:
 
     def addClient(self, client):
         # synchronize this
-        self.clients.append(client)
+        self.lock.acquire()
+        try:
+            self.clients.append(client)
+        finally:
+            self.lock.release()
 
     def removeClient(self, clientToRemove):
         # synchronize this
-        newClients = []
-        for client in self.clients:
-            if client.addr != clientToRemove.addr:
-                newClients.append(client)
-        self.clients = newClients
+        self.lock.acquire()
+        try:
+            newClients = []
+            for client in self.clients:
+                if client.addr != clientToRemove.addr:
+                    newClients.append(client)
+            self.clients = newClients
+        finally:
+            self.lock.release()
 
 
 server = ChatServer()
