@@ -48,24 +48,21 @@ class ChatServer:
 
     def addClient(self, client):
         # synchronize this
-        self.lock.acquire()
-        try:
+        with self.lock:
             threading.Thread(target=startClient, args=(client,)).start()
             self.clients.append(client)
             print(client.addr, "connected...")
-        finally:
-            self.lock.release()
 
     def removeClient(self, clientToRemove):
         # synchronize this
         self.lock.acquire()
         try:
+            clientToRemove.conn.close()  # this should be done after this client has been removed
             newClients = []
             for client in self.clients:
                 if client.addr != clientToRemove.addr:
                     newClients.append(client)
             self.clients = newClients
-            clientToRemove.conn.close()
             print(clientToRemove.addr, "removed...")
         finally:
             self.lock.release()
