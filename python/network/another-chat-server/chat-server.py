@@ -26,14 +26,14 @@ class ChatServer:
     def __init__(self):
         self.lock = threading.Lock()
         self.clients = []
-        self.host = socket.gethostname()
+        self.host = '0.0.0.0'
         self.port = 4561
         self.serverSocket = socket.socket()
 
     def startServer(self):
         self.serverSocket.bind((self.host, self.port))
         self.serverSocket.listen(5)
-        print("Server intialized. Waiting for clients...")
+        print("Server intialized at", self.host, "\nWaiting for clients...")
         while True:
             conn, addr = self.serverSocket.accept()
             print(addr, "request recieved...")
