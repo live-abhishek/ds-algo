@@ -11,7 +11,8 @@
       "stopOnEntry": false,
       "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
-      "cwd": "${workspaceFolder}",
+      // "cwd": "${workspaceFolder}",
+      "cwd": "${fileDirname}",
       "env": {},
       "envFile": "${workspaceFolder}/.env",
       "debugOptions": ["RedirectOutput"]
