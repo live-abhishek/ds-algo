@@ -1,5 +1,5 @@
 class UnionFind:
-    def init(self, n):
+    def __init__(self, n):
         self.p = [i for i in range(n)]
         self.r = [0]*n
         self.s = [1 for i in range(n)]
