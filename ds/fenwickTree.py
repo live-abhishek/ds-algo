@@ -29,13 +29,25 @@ class FenwickTree:
 
 if __name__ == "__main__":
     f = [2, 4, 5, 5, 6, 6, 6, 7, 7, 8, 9]
-    ft = FenwickTree(max(f)+1)
-    for i in f:
-        ft.adjust(f[i], 1)
+    f = [0] + f
+    print(sum(f))
+    ft = FenwickTree(len(f))
+    for i in range(1, len(f)):
+        ft.adjust(i, f[i])
+        print(i, f[i], ft.rsq(1, i))
     print(ft.rsq(1, 1))
     print(ft.rsq(1, 2))
+    print(ft.rsq(1, 3))
+    print(ft.rsq(1, 4))
+    print(ft.rsq(1, 5))
+    print(ft.rsq(1, 6))
+    print(ft.rsq(1, 7))
+    print(ft.rsq(1, 8))
+    print(ft.rsq(1, 9))
     print(ft.rsq(1, 6))
     print(ft.rsq(1, 10))
     print(ft.rsq(3, 6))
+    print(ft.rsq(1, 10))
+    print(ft.rsq(1, 11))
     ft.adjust(5, 2)  # increment by 2
-    print(ft.rsq(3, 10))
+    print(ft.rsq(1, 11))
