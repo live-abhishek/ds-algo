@@ -1,0 +1,26 @@
+
+List Replication
+    n=3
+    ls = list
+    ls.stream().map( i -> IntStream.range(0,n).mapToObj(j -> i).collect(Collectors.toList()) ).flatMap( l -> l.stream() ).collect( Collectors.toList() )
+
+Filter Array
+    X = delimieter
+    ls = list
+    ls.stream().filter(i -> i < X).forEach(System.out::println)
+
+Filter Positions in a List
+    ls = list
+    IntStream.range(1, ls.size()+1).filter( i -> (i % 2) == 0 ).mapToObj( i -> ls.get(i-1) ).forEach(System.out::println)
+
+Array Of N Elements
+    IntStream.range(0,n).mapToObj(i -> i+"").collect(Collectors.joining(", ", "[", "]"))
+
+Reverse a List
+    arr = array
+    IntStream.range(0, arr.length).mapToObj(i -> arr[arr.length - 1 - i]).collect(Collectors.toList())
+    IntStream.iterate(arr.length, x -> x > 0, x -> --x).forEach(System.out::println) // Java 9 onwards
+
+Sum of Odd Elements
+    arr = array
+    Arrays.stream(arr).mapToInt(i -> Integer.parseInt(i)).filter(i -> i % 2 != 0).sum()
