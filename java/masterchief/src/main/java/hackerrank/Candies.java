@@ -11,10 +11,11 @@ public class Candies {
     static PrintWriter pr;
 
     public static void main(String[] args) throws IOException {
+        Object obj = new Object();
         br = new BufferedReader(new InputStreamReader(System.in));
         pr = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
-        br = new BufferedReader(new InputStreamReader(new FileInputStream("input.txt")));
-        pr = new PrintWriter(new BufferedWriter(new FileWriter("output.txt")));
+        br = new BufferedReader(new InputStreamReader(new FileInputStream(Candies.class.getClassLoader().getResource("Candies/input.txt").getFile())));
+//        pr = new PrintWriter(new BufferedWriter(new FileWriter(Candies.class.getClassLoader().getResource("Candies/output.txt").getFile())));
         int n = Integer.valueOf(br.readLine());
         int[] arr = readNLinesIntoArray(n);
         solveTc(arr);
