@@ -1,0 +1,672 @@
+0 coconuts, no solution
+1 coconuts, no solution
+2 coconuts, no solution
+3 coconuts, no solution
+4 coconuts, no solution
+5 coconuts, 2 people and 1 monkey
+6 coconuts, no solution
+7 coconuts, no solution
+8 coconuts, no solution
+9 coconuts, 2 people and 1 monkey
+10 coconuts, no solution
+11 coconuts, 2 people and 1 monkey
+12 coconuts, no solution
+13 coconuts, 2 people and 1 monkey
+14 coconuts, no solution
+15 coconuts, no solution
+16 coconuts, 3 people and 1 monkey
+17 coconuts, 2 people and 1 monkey
+18 coconuts, no solution
+19 coconuts, 2 people and 1 monkey
+20 coconuts, no solution
+21 coconuts, 2 people and 1 monkey
+22 coconuts, no solution
+23 coconuts, no solution
+24 coconuts, no solution
+25 coconuts, 3 people and 1 monkey
+26 coconuts, no solution
+27 coconuts, 2 people and 1 monkey
+28 coconuts, no solution
+29 coconuts, 2 people and 1 monkey
+30 coconuts, no solution
+31 coconuts, no solution
+32 coconuts, no solution
+33 coconuts, 2 people and 1 monkey
+34 coconuts, no solution
+35 coconuts, 2 people and 1 monkey
+36 coconuts, no solution
+37 coconuts, 2 people and 1 monkey
+38 coconuts, no solution
+39 coconuts, no solution
+40 coconuts, no solution
+41 coconuts, 2 people and 1 monkey
+42 coconuts, no solution
+43 coconuts, 3 people and 1 monkey
+44 coconuts, no solution
+45 coconuts, 2 people and 1 monkey
+46 coconuts, no solution
+47 coconuts, no solution
+48 coconuts, no solution
+49 coconuts, 2 people and 1 monkey
+50 coconuts, no solution
+51 coconuts, 2 people and 1 monkey
+52 coconuts, no solution
+53 coconuts, 2 people and 1 monkey
+54 coconuts, no solution
+55 coconuts, no solution
+56 coconuts, no solution
+57 coconuts, 2 people and 1 monkey
+58 coconuts, no solution
+59 coconuts, 2 people and 1 monkey
+60 coconuts, no solution
+61 coconuts, 4 people and 1 monkey
+62 coconuts, no solution
+63 coconuts, no solution
+64 coconuts, no solution
+65 coconuts, 2 people and 1 monkey
+66 coconuts, no solution
+67 coconuts, 2 people and 1 monkey
+68 coconuts, no solution
+69 coconuts, 2 people and 1 monkey
+70 coconuts, 3 people and 1 monkey
+71 coconuts, no solution
+72 coconuts, no solution
+73 coconuts, 2 people and 1 monkey
+74 coconuts, no solution
+75 coconuts, 2 people and 1 monkey
+76 coconuts, no solution
+77 coconuts, 2 people and 1 monkey
+78 coconuts, no solution
+79 coconuts, no solution
+80 coconuts, no solution
+81 coconuts, 2 people and 1 monkey
+82 coconuts, no solution
+83 coconuts, 2 people and 1 monkey
+84 coconuts, no solution
+85 coconuts, 2 people and 1 monkey
+86 coconuts, no solution
+87 coconuts, no solution
+88 coconuts, no solution
+89 coconuts, 2 people and 1 monkey
+90 coconuts, no solution
+91 coconuts, 2 people and 1 monkey
+92 coconuts, no solution
+93 coconuts, 2 people and 1 monkey
+94 coconuts, no solution
+95 coconuts, no solution
+96 coconuts, no solution
+97 coconuts, 3 people and 1 monkey
+98 coconuts, no solution
+99 coconuts, 2 people and 1 monkey
+100 coconuts, no solution
+101 coconuts, 2 people and 1 monkey
+102 coconuts, no solution
+103 coconuts, no solution
+104 coconuts, no solution
+105 coconuts, 2 people and 1 monkey
+106 coconuts, 3 people and 1 monkey
+107 coconuts, 2 people and 1 monkey
+108 coconuts, no solution
+109 coconuts, 2 people and 1 monkey
+110 coconuts, no solution
+111 coconuts, no solution
+112 coconuts, no solution
+113 coconuts, 2 people and 1 monkey
+114 coconuts, no solution
+115 coconuts, 2 people and 1 monkey
+116 coconuts, no solution
+117 coconuts, 2 people and 1 monkey
+118 coconuts, no solution
+119 coconuts, no solution
+120 coconuts, no solution
+121 coconuts, 2 people and 1 monkey
+122 coconuts, no solution
+123 coconuts, 2 people and 1 monkey
+124 coconuts, 3 people and 1 monkey
+125 coconuts, 2 people and 1 monkey
+126 coconuts, no solution
+127 coconuts, no solution
+128 coconuts, no solution
+129 coconuts, 2 people and 1 monkey
+130 coconuts, no solution
+131 coconuts, 2 people and 1 monkey
+132 coconuts, no solution
+133 coconuts, 2 people and 1 monkey
+134 coconuts, no solution
+135 coconuts, no solution
+136 coconuts, no solution
+137 coconuts, 2 people and 1 monkey
+138 coconuts, no solution
+139 coconuts, 2 people and 1 monkey
+140 coconuts, no solution
+141 coconuts, 2 people and 1 monkey
+142 coconuts, no solution
+143 coconuts, no solution
+144 coconuts, no solution
+145 coconuts, 2 people and 1 monkey
+146 coconuts, no solution
+147 coconuts, 2 people and 1 monkey
+148 coconuts, no solution
+149 coconuts, 2 people and 1 monkey
+150 coconuts, no solution
+151 coconuts, 3 people and 1 monkey
+152 coconuts, no solution
+153 coconuts, 2 people and 1 monkey
+154 coconuts, no solution
+155 coconuts, 2 people and 1 monkey
+156 coconuts, no solution
+157 coconuts, 2 people and 1 monkey
+158 coconuts, no solution
+159 coconuts, no solution
+160 coconuts, no solution
+161 coconuts, 2 people and 1 monkey
+162 coconuts, no solution
+163 coconuts, 2 people and 1 monkey
+164 coconuts, no solution
+165 coconuts, 2 people and 1 monkey
+166 coconuts, no solution
+167 coconuts, no solution
+168 coconuts, no solution
+169 coconuts, 2 people and 1 monkey
+170 coconuts, no solution
+171 coconuts, 2 people and 1 monkey
+172 coconuts, no solution
+173 coconuts, 2 people and 1 monkey
+174 coconuts, no solution
+175 coconuts, no solution
+176 coconuts, no solution
+177 coconuts, 2 people and 1 monkey
+178 coconuts, 3 people and 1 monkey
+179 coconuts, 2 people and 1 monkey
+180 coconuts, no solution
+181 coconuts, 2 people and 1 monkey
+182 coconuts, no solution
+183 coconuts, no solution
+184 coconuts, no solution
+185 coconuts, 2 people and 1 monkey
+186 coconuts, no solution
+187 coconuts, 3 people and 1 monkey
+188 coconuts, no solution
+189 coconuts, 2 people and 1 monkey
+190 coconuts, no solution
+191 coconuts, no solution
+192 coconuts, no solution
+193 coconuts, 2 people and 1 monkey
+194 coconuts, no solution
+195 coconuts, 2 people and 1 monkey
+196 coconuts, no solution
+197 coconuts, 2 people and 1 monkey
+198 coconuts, no solution
+199 coconuts, no solution
+200 coconuts, no solution
+201 coconuts, 2 people and 1 monkey
+202 coconuts, no solution
+203 coconuts, 2 people and 1 monkey
+204 coconuts, no solution
+205 coconuts, 3 people and 1 monkey
+206 coconuts, no solution
+207 coconuts, no solution
+208 coconuts, no solution
+209 coconuts, 2 people and 1 monkey
+210 coconuts, no solution
+211 coconuts, 2 people and 1 monkey
+212 coconuts, no solution
+213 coconuts, 2 people and 1 monkey
+214 coconuts, no solution
+215 coconuts, no solution
+216 coconuts, no solution
+217 coconuts, 2 people and 1 monkey
+218 coconuts, no solution
+219 coconuts, 2 people and 1 monkey
+220 coconuts, no solution
+221 coconuts, 2 people and 1 monkey
+222 coconuts, no solution
+223 coconuts, no solution
+224 coconuts, no solution
+225 coconuts, 2 people and 1 monkey
+226 coconuts, no solution
+227 coconuts, 2 people and 1 monkey
+228 coconuts, no solution
+229 coconuts, 2 people and 1 monkey
+230 coconuts, no solution
+231 coconuts, no solution
+232 coconuts, 3 people and 1 monkey
+233 coconuts, 2 people and 1 monkey
+234 coconuts, no solution
+235 coconuts, 2 people and 1 monkey
+236 coconuts, no solution
+237 coconuts, 2 people and 1 monkey
+238 coconuts, no solution
+239 coconuts, no solution
+240 coconuts, no solution
+241 coconuts, 2 people and 1 monkey
+242 coconuts, no solution
+243 coconuts, 2 people and 1 monkey
+244 coconuts, no solution
+245 coconuts, 2 people and 1 monkey
+246 coconuts, no solution
+247 coconuts, no solution
+248 coconuts, no solution
+249 coconuts, 2 people and 1 monkey
+250 coconuts, no solution
+251 coconuts, 2 people and 1 monkey
+252 coconuts, no solution
+253 coconuts, 2 people and 1 monkey
+254 coconuts, no solution
+255 coconuts, no solution
+256 coconuts, no solution
+257 coconuts, 2 people and 1 monkey
+258 coconuts, no solution
+259 coconuts, 3 people and 1 monkey
+260 coconuts, no solution
+261 coconuts, 2 people and 1 monkey
+262 coconuts, no solution
+263 coconuts, no solution
+264 coconuts, no solution
+265 coconuts, 2 people and 1 monkey
+266 coconuts, no solution
+267 coconuts, 2 people and 1 monkey
+268 coconuts, 3 people and 1 monkey
+269 coconuts, 2 people and 1 monkey
+270 coconuts, no solution
+271 coconuts, no solution
+272 coconuts, no solution
+273 coconuts, 2 people and 1 monkey
+274 coconuts, no solution
+275 coconuts, 2 people and 1 monkey
+276 coconuts, no solution
+277 coconuts, 2 people and 1 monkey
+278 coconuts, no solution
+279 coconuts, no solution
+280 coconuts, no solution
+281 coconuts, 2 people and 1 monkey
+282 coconuts, no solution
+283 coconuts, 2 people and 1 monkey
+284 coconuts, no solution
+285 coconuts, 2 people and 1 monkey
+286 coconuts, 3 people and 1 monkey
+287 coconuts, no solution
+288 coconuts, no solution
+289 coconuts, 2 people and 1 monkey
+290 coconuts, no solution
+291 coconuts, 2 people and 1 monkey
+292 coconuts, no solution
+293 coconuts, 2 people and 1 monkey
+294 coconuts, no solution
+295 coconuts, no solution
+296 coconuts, no solution
+297 coconuts, 2 people and 1 monkey
+298 coconuts, no solution
+299 coconuts, 2 people and 1 monkey
+300 coconuts, no solution
+301 coconuts, 2 people and 1 monkey
+302 coconuts, no solution
+303 coconuts, no solution
+304 coconuts, no solution
+305 coconuts, 2 people and 1 monkey
+306 coconuts, no solution
+307 coconuts, 2 people and 1 monkey
+308 coconuts, no solution
+309 coconuts, 2 people and 1 monkey
+310 coconuts, no solution
+311 coconuts, no solution
+312 coconuts, no solution
+313 coconuts, 3 people and 1 monkey
+314 coconuts, no solution
+315 coconuts, 2 people and 1 monkey
+316 coconuts, no solution
+317 coconuts, 4 people and 1 monkey
+318 coconuts, no solution
+319 coconuts, no solution
+320 coconuts, no solution
+321 coconuts, 2 people and 1 monkey
+322 coconuts, no solution
+323 coconuts, 2 people and 1 monkey
+324 coconuts, no solution
+325 coconuts, 2 people and 1 monkey
+326 coconuts, no solution
+327 coconuts, no solution
+328 coconuts, no solution
+329 coconuts, 2 people and 1 monkey
+330 coconuts, no solution
+331 coconuts, 2 people and 1 monkey
+332 coconuts, no solution
+333 coconuts, 2 people and 1 monkey
+334 coconuts, no solution
+335 coconuts, no solution
+336 coconuts, no solution
+337 coconuts, 2 people and 1 monkey
+338 coconuts, no solution
+339 coconuts, 2 people and 1 monkey
+340 coconuts, 3 people and 1 monkey
+341 coconuts, 2 people and 1 monkey
+342 coconuts, no solution
+343 coconuts, no solution
+344 coconuts, no solution
+345 coconuts, 2 people and 1 monkey
+346 coconuts, no solution
+347 coconuts, 2 people and 1 monkey
+348 coconuts, no solution
+349 coconuts, 3 people and 1 monkey
+350 coconuts, no solution
+351 coconuts, no solution
+352 coconuts, no solution
+353 coconuts, 2 people and 1 monkey
+354 coconuts, no solution
+355 coconuts, 2 people and 1 monkey
+356 coconuts, no solution
+357 coconuts, 2 people and 1 monkey
+358 coconuts, no solution
+359 coconuts, no solution
+360 coconuts, no solution
+361 coconuts, 2 people and 1 monkey
+362 coconuts, no solution
+363 coconuts, 2 people and 1 monkey
+364 coconuts, no solution
+365 coconuts, 2 people and 1 monkey
+366 coconuts, no solution
+367 coconuts, 3 people and 1 monkey
+368 coconuts, no solution
+369 coconuts, 2 people and 1 monkey
+370 coconuts, no solution
+371 coconuts, 2 people and 1 monkey
+372 coconuts, no solution
+373 coconuts, 2 people and 1 monkey
+374 coconuts, no solution
+375 coconuts, no solution
+376 coconuts, no solution
+377 coconuts, 2 people and 1 monkey
+378 coconuts, no solution
+379 coconuts, 2 people and 1 monkey
+380 coconuts, no solution
+381 coconuts, 2 people and 1 monkey
+382 coconuts, no solution
+383 coconuts, no solution
+384 coconuts, no solution
+385 coconuts, 2 people and 1 monkey
+386 coconuts, no solution
+387 coconuts, 2 people and 1 monkey
+388 coconuts, no solution
+389 coconuts, 2 people and 1 monkey
+390 coconuts, no solution
+391 coconuts, no solution
+392 coconuts, no solution
+393 coconuts, 2 people and 1 monkey
+394 coconuts, 3 people and 1 monkey
+395 coconuts, 2 people and 1 monkey
+396 coconuts, no solution
+397 coconuts, 2 people and 1 monkey
+398 coconuts, no solution
+399 coconuts, no solution
+400 coconuts, no solution
+401 coconuts, 2 people and 1 monkey
+402 coconuts, no solution
+403 coconuts, 2 people and 1 monkey
+404 coconuts, no solution
+405 coconuts, 2 people and 1 monkey
+406 coconuts, no solution
+407 coconuts, no solution
+408 coconuts, no solution
+409 coconuts, 2 people and 1 monkey
+410 coconuts, no solution
+411 coconuts, 2 people and 1 monkey
+412 coconuts, no solution
+413 coconuts, 2 people and 1 monkey
+414 coconuts, no solution
+415 coconuts, no solution
+416 coconuts, no solution
+417 coconuts, 2 people and 1 monkey
+418 coconuts, no solution
+419 coconuts, 2 people and 1 monkey
+420 coconuts, no solution
+421 coconuts, 3 people and 1 monkey
+422 coconuts, no solution
+423 coconuts, no solution
+424 coconuts, no solution
+425 coconuts, 2 people and 1 monkey
+426 coconuts, no solution
+427 coconuts, 2 people and 1 monkey
+428 coconuts, no solution
+429 coconuts, 2 people and 1 monkey
+430 coconuts, 3 people and 1 monkey
+431 coconuts, no solution
+432 coconuts, no solution
+433 coconuts, 2 people and 1 monkey
+434 coconuts, no solution
+435 coconuts, 2 people and 1 monkey
+436 coconuts, no solution
+437 coconuts, 2 people and 1 monkey
+438 coconuts, no solution
+439 coconuts, no solution
+440 coconuts, no solution
+441 coconuts, 2 people and 1 monkey
+442 coconuts, no solution
+443 coconuts, 2 people and 1 monkey
+444 coconuts, no solution
+445 coconuts, 2 people and 1 monkey
+446 coconuts, no solution
+447 coconuts, no solution
+448 coconuts, 3 people and 1 monkey
+449 coconuts, 2 people and 1 monkey
+450 coconuts, no solution
+451 coconuts, 2 people and 1 monkey
+452 coconuts, no solution
+453 coconuts, 2 people and 1 monkey
+454 coconuts, no solution
+455 coconuts, no solution
+456 coconuts, no solution
+457 coconuts, 2 people and 1 monkey
+458 coconuts, no solution
+459 coconuts, 2 people and 1 monkey
+460 coconuts, no solution
+461 coconuts, 2 people and 1 monkey
+462 coconuts, no solution
+463 coconuts, no solution
+464 coconuts, no solution
+465 coconuts, 2 people and 1 monkey
+466 coconuts, no solution
+467 coconuts, 2 people and 1 monkey
+468 coconuts, no solution
+469 coconuts, 2 people and 1 monkey
+470 coconuts, no solution
+471 coconuts, no solution
+472 coconuts, no solution
+473 coconuts, 2 people and 1 monkey
+474 coconuts, no solution
+475 coconuts, 3 people and 1 monkey
+476 coconuts, no solution
+477 coconuts, 2 people and 1 monkey
+478 coconuts, no solution
+479 coconuts, no solution
+480 coconuts, no solution
+481 coconuts, 2 people and 1 monkey
+482 coconuts, no solution
+483 coconuts, 2 people and 1 monkey
+484 coconuts, no solution
+485 coconuts, 2 people and 1 monkey
+486 coconuts, no solution
+487 coconuts, no solution
+488 coconuts, no solution
+489 coconuts, 2 people and 1 monkey
+490 coconuts, no solution
+491 coconuts, 2 people and 1 monkey
+492 coconuts, no solution
+493 coconuts, 2 people and 1 monkey
+494 coconuts, no solution
+495 coconuts, no solution
+496 coconuts, no solution
+497 coconuts, 2 people and 1 monkey
+498 coconuts, no solution
+499 coconuts, 2 people and 1 monkey
+500 coconuts, no solution
+501 coconuts, 2 people and 1 monkey
+502 coconuts, 3 people and 1 monkey
+503 coconuts, no solution
+504 coconuts, no solution
+505 coconuts, 2 people and 1 monkey
+506 coconuts, no solution
+507 coconuts, 2 people and 1 monkey
+508 coconuts, no solution
+509 coconuts, 2 people and 1 monkey
+510 coconuts, no solution
+511 coconuts, 3 people and 1 monkey
+1000000000 coconuts, no solution
+999999999 coconuts, no solution
+999999998 coconuts, no solution
+999999997 coconuts, 2 people and 1 monkey
+999999996 coconuts, no solution
+999999995 coconuts, 2 people and 1 monkey
+999999994 coconuts, no solution
+999999993 coconuts, 2 people and 1 monkey
+999999992 coconuts, no solution
+999999991 coconuts, 10 people and 1 monkey
+999999990 coconuts, no solution
+999999989 coconuts, 2 people and 1 monkey
+999999988 coconuts, 3 people and 1 monkey
+999999987 coconuts, 2 people and 1 monkey
+999999986 coconuts, no solution
+999999985 coconuts, 2 people and 1 monkey
+999999984 coconuts, no solution
+999999983 coconuts, no solution
+999999982 coconuts, no solution
+999999981 coconuts, 2 people and 1 monkey
+999999980 coconuts, no solution
+999999979 coconuts, 2 people and 1 monkey
+999999978 coconuts, no solution
+999999977 coconuts, 2 people and 1 monkey
+999999976 coconuts, no solution
+999999975 coconuts, no solution
+999999974 coconuts, no solution
+999999973 coconuts, 2 people and 1 monkey
+999999972 coconuts, no solution
+999999971 coconuts, 2 people and 1 monkey
+999999970 coconuts, no solution
+999999969 coconuts, 2 people and 1 monkey
+756796731 coconuts, 2 people and 1 monkey
+584988986 coconuts, no solution
+665001822 coconuts, no solution
+140207091 coconuts, 2 people and 1 monkey
+534872346 coconuts, no solution
+1058370241 coconuts, 2 people and 1 monkey
+182277119 coconuts, no solution
+675760809 coconuts, 2 people and 1 monkey
+525065817 coconuts, 2 people and 1 monkey
+601552608 coconuts, no solution
+304937087 coconuts, no solution
+287542697 coconuts, 2 people and 1 monkey
+6047938 coconuts, no solution
+913004204 coconuts, no solution
+1008470651 coconuts, 2 people and 1 monkey
+79234099 coconuts, 2 people and 1 monkey
+1038960666 coconuts, no solution
+793702943 coconuts, no solution
+966242000 coconuts, no solution
+1002081833 coconuts, 2 people and 1 monkey
+360632310 coconuts, no solution
+338367534 coconuts, no solution
+427335372 coconuts, no solution
+547953885 coconuts, 2 people and 1 monkey
+455434489 coconuts, 2 people and 1 monkey
+216993876 coconuts, no solution
+253547700 coconuts, no solution
+354217782 coconuts, no solution
+1016625333 coconuts, 2 people and 1 monkey
+647721447 coconuts, no solution
+171144707 coconuts, 2 people and 1 monkey
+566331826 coconuts, no solution
+917974842 coconuts, no solution
+425953146 coconuts, no solution
+984854707 coconuts, 2 people and 1 monkey
+705191875 coconuts, 3 people and 1 monkey
+570265491 coconuts, 2 people and 1 monkey
+774616872 coconuts, no solution
+938239977 coconuts, 2 people and 1 monkey
+119729835 coconuts, 2 people and 1 monkey
+952776599 coconuts, no solution
+454990036 coconuts, no solution
+517381991 coconuts, no solution
+588627226 coconuts, no solution
+642904241 coconuts, 2 people and 1 monkey
+517006902 coconuts, no solution
+474580362 coconuts, no solution
+510255774 coconuts, no solution
+860694008 coconuts, no solution
+923163122 coconuts, no solution
+201115020 coconuts, no solution
+773089940 coconuts, no solution
+718316765 coconuts, 2 people and 1 monkey
+947305954 coconuts, no solution
+802197448 coconuts, 3 people and 1 monkey
+364767922 coconuts, no solution
+371164693 coconuts, 2 people and 1 monkey
+772603622 coconuts, no solution
+210910883 coconuts, 2 people and 1 monkey
+104982491 coconuts, 2 people and 1 monkey
+443086291 coconuts, 2 people and 1 monkey
+979924634 coconuts, no solution
+99174321 coconuts, 2 people and 1 monkey
+640721554 coconuts, no solution
+53318463 coconuts, no solution
+1060112593 coconuts, 2 people and 1 monkey
+713743827 coconuts, 2 people and 1 monkey
+243821453 coconuts, 2 people and 1 monkey
+250164145 coconuts, 2 people and 1 monkey
+801979958 coconuts, no solution
+418423746 coconuts, no solution
+223396205 coconuts, 2 people and 1 monkey
+696872575 coconuts, no solution
+254087509 coconuts, 2 people and 1 monkey
+66695915 coconuts, 2 people and 1 monkey
+627078906 coconuts, no solution
+8577592 coconuts, 3 people and 1 monkey
+233916443 coconuts, 2 people and 1 monkey
+254025792 coconuts, no solution
+897425691 coconuts, 2 people and 1 monkey
+60561192 coconuts, no solution
+315918201 coconuts, 2 people and 1 monkey
+79463252 coconuts, no solution
+128586717 coconuts, 2 people and 1 monkey
+732287787 coconuts, 2 people and 1 monkey
+1001452960 coconuts, no solution
+986850834 coconuts, no solution
+228200714 coconuts, no solution
+848815326 coconuts, no solution
+656796769 coconuts, 2 people and 1 monkey
+931111540 coconuts, 3 people and 1 monkey
+1010701748 coconuts, no solution
+967032089 coconuts, 2 people and 1 monkey
+492544589 coconuts, 2 people and 1 monkey
+735514928 coconuts, no solution
+869457727 coconuts, no solution
+1046571663 coconuts, no solution
+592254469 coconuts, 2 people and 1 monkey
+443263842 coconuts, no solution
+750667905 coconuts, 2 people and 1 monkey
+244253906 coconuts, no solution
+903311094 coconuts, no solution
+409436286 coconuts, no solution
+1070432225 coconuts, 2 people and 1 monkey
+283537686 coconuts, no solution
+382366695 coconuts, no solution
+409021790 coconuts, no solution
+374382727 coconuts, no solution
+323003431 coconuts, no solution
+328592693 coconuts, 2 people and 1 monkey
+206860315 coconuts, 2 people and 1 monkey
+970243802 coconuts, no solution
+1043652730 coconuts, no solution
+188571562 coconuts, no solution
+314846750 coconuts, no solution
+693107123 coconuts, 2 people and 1 monkey
+160537511 coconuts, no solution
+973348391 coconuts, no solution
+250529699 coconuts, 2 people and 1 monkey
+864531584 coconuts, no solution
+745336763 coconuts, 2 people and 1 monkey
+478013946 coconuts, no solution
+481850936 coconuts, no solution
+709901458 coconuts, 3 people and 1 monkey
+55124581 coconuts, 2 people and 1 monkey
+928912322 coconuts, no solution
+183949512 coconuts, no solution
+21937047 coconuts, no solution
