@@ -1,0 +1,8 @@
+Transaction inside transaction
+    Use case
+    I am deleting an Object A. This object is also linked to some other object B using some association.
+    So delete process of A also includes update of B to remove the association.
+    Now the update of B actually checks if the necessary links are preserved, so as to prevent the accidental removal of linkages.
+    But while deleting A, we have to remove linkage from B as well.
+    This update fails because all the operation happens in the same transaction. Because of this after delete of A, the update runs on B, and update
+        finds that that particular link is being removed which it doesn't allow as per its own logic.
