@@ -50,14 +50,11 @@ public class Dijkstra {
             Node node2 = nodes.get(n);
             node1.nbrs.add(new Nbr(node2, distance));
         }
-        private void resetNodeDistance(){
-            nodes.forEach(node -> node.srcDist = Integer.MAX_VALUE);
-        }
         public void dijkstra(int s){
-            resetNodeDistance();
+            PriorityQueue<HeapNode> pq = new PriorityQueue<>();
+            nodes.forEach(node -> node.srcDist = Integer.MAX_VALUE);
             Node source = nodes.get(s);
             source.srcDist = 0;
-            PriorityQueue<HeapNode> pq = new PriorityQueue<>();
             pq.add(new HeapNode(0, source));
             while (!pq.isEmpty()) {
                 HeapNode front = pq.remove();
