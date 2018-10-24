@@ -18,7 +18,6 @@ public class Dijkstra {
         public int num;
         public int srcDist;
         public List<Nbr> nbrs = new ArrayList<>();
-        public boolean visited;
         public Node(int i){this.num = i;}
     }
 
@@ -74,6 +73,7 @@ public class Dijkstra {
     }
 
     public static void main(String[] args) {
+        // Example consists of a directed graph
         Graph graph = new Graph(5);
         graph.addEdge(2,1,2);
         graph.addEdge(2,3,7);
