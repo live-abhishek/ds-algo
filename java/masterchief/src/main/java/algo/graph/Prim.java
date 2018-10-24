@@ -81,6 +81,6 @@ public class Prim {
         graph.addEdge(0,4,6);
         graph.addEdge(3,4,9);
         int mstCost = graph.prim();
-        System.out.println(mstCost);
+        System.out.println(mstCost);    
     }
 }
