@@ -20,7 +20,6 @@ public class Dijkstra {
         public List<Nbr> nbrs = new ArrayList<>();
         public Node(int i){this.num = i;}
     }
-
     // this instances of this class will be used in Dijkstra Heap
     static class HeapNode implements  Comparable<HeapNode>{
         // this is distance from the current node
@@ -31,7 +30,6 @@ public class Dijkstra {
             this.node = node;
             this.distance = distance;
         }
-
         @Override
         public int compareTo(HeapNode other) {
             return this.distance == other.distance
@@ -39,7 +37,6 @@ public class Dijkstra {
                     : this.distance - other.distance;
         }
     }
-
     static class Graph{
         public List<Node> nodes = new ArrayList<>();
         public Graph(int num){
@@ -68,7 +65,6 @@ public class Dijkstra {
             }
         }
     }
-
     public static void main(String[] args) {
         // Example consists of a directed graph
         Graph graph = new Graph(5);
