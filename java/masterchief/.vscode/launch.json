@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DOCSDEL",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "codechef.DOCSDEL",
+            "args": "",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BricksGame",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "hackerrank.BricksGame",
+            "args": "",
+            "projectName": "my-app"
+        }
+    ]
+}

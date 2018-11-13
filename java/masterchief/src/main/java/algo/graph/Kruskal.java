@@ -97,6 +97,8 @@ public class Kruskal{
         g.addEdge(3,6,8);
         g.addEdge(4,5,9);
         List<Edge> resultEdges = g.mstKruskal();
-        resultEdges.forEach(edge -> System.out.println(String.format("u:%d v:%d w:%d", edge.u, edge.v, edge.wt)));
+        resultEdges.forEach(edge -> System.out.println(
+                String.format("u:%d v:%d w:%d", edge.u, edge.v, edge.wt))
+        );
     }
 }

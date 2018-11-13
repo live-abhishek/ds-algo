@@ -13,17 +13,22 @@ public class DFS {
         List<Node> nbrs = new ArrayList<>();
         Node(int num) { this.num = num; }
         public String toString(){
-            return String.format("%d: %s", num, nbrs.stream().map(n -> n.num+"").collect(Collectors.joining(",")));
+            return String.format("%d: %s", num, nbrs.stream()
+                    .map(n -> n.num+"")
+                    .collect(Collectors.joining(",")));
         }
     }
     static class Graph{
         List<Node> nodes = new ArrayList<>();
-        Graph(int size){ IntStream.range(0, size).forEach(i -> nodes.add(new Node(i))); }
+        Graph(int size){ IntStream.range(0, size)
+                .forEach(i -> nodes.add(new Node(i))); }
         void addNbr(int nodeNum, int... nbrs){
-            Arrays.stream(nbrs).forEach(i -> nodes.get(nodeNum).nbrs.add(nodes.get(i)));
+            Arrays.stream(nbrs).
+                    forEach(i -> nodes.get(nodeNum).nbrs.add(nodes.get(i)));
         }
         public String toString(){
-            return nodes.stream().map(n -> n.toString()).collect(Collectors.joining("\n"));
+            return nodes.stream().map(n -> n.toString())
+                    .collect(Collectors.joining("\n"));
         }
         public List<List<Node>> dfs(){
             List<List<Node>> forest = new ArrayList<>();

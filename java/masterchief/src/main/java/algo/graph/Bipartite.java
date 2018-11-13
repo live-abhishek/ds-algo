@@ -33,7 +33,9 @@ public class Bipartite {
             IntStream.range(0, size).forEach(i -> nodes.add(null));
         }
         public void addNode(int nodeNum){
-            if(nodeNum >= nodes.size()) { throw new RuntimeException("Invalid argument"); }
+            if(nodeNum >= nodes.size()) {
+                throw new RuntimeException("Invalid argument");
+            }
             nodes.set(nodeNum, new Node(nodeNum));
         }
         public void addEdge(int nodeNum1, int nodeNum2){
@@ -55,7 +57,9 @@ public class Bipartite {
                 Node node = q.poll();
                 for(Node nbr: node.nbrs){
                     if(nbr.color == GraphColor.None){
-                        nbr.color = node.color == GraphColor.red ? GraphColor.green : GraphColor.red;
+                        nbr.color = node.color == GraphColor.red
+                                ? GraphColor.green
+                                : GraphColor.red;
                         q.offer(nbr);
                     } else if(nbr.color == node.color){
                         isBipartite = false;
