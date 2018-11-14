@@ -18,14 +18,14 @@ def isNumber(word):
 
 
 def checkMusic(wordA, wordB):
-    if isName(wordA.strip()) and isNumber(wordB.strip()):
+    if isName(wordA) and isNumber(wordB):
         print(M)
     else:
         print(N)
 
 
 def checkVideo(wordA, wordB, wordC):
-    if isName(wordA.strip()) and isNumber(wordB.strip()) and isNumber(wordC.strip()):
+    if isName(wordA) and isNumber(wordB) and isNumber(wordC):
         print(V)
     else:
         print(N)
