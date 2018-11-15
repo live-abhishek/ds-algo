@@ -39,5 +39,14 @@
 			"int(input())"
 		],
 		"description": "Reads an integer from string"
+	},
+	"Range t": {
+		"scope": "python",
+		"prefix": "rat",
+		"body": [
+			"for _ in range(t):",
+			"    "
+		],
+		"description": "loop from 0 to t-1"
 	}
 }
