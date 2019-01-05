@@ -8,26 +8,18 @@ import java.util.stream.IntStream;
 
 public class SummationParallel {
     int[] arr;
-    public SummationParallel(int[] arr){
+    int numTasks;
+    public SummationParallel(int[] arr, int numTasks){
         this.arr = arr;
+        this.numTasks = numTasks;
     }
 
     public int sum(){
-        int splitNums = Integer.min(
-                Runtime.getRuntime().availableProcessors(), arr.length);
-        List<Callable<Integer>> callableList = new ArrayList<>();
-
-        List<List<Integer>> ranges = getRanges(this.arr.length, splitNums);
-        for (List<Integer> range : ranges) {
-            Callable<Integer> callable = (() -> IntStream
-                    .rangeClosed(range.get(0), range.get(1))
-                    .map(i -> SummationParallel.this.arr[i])
-                    .sum());
-            callableList.add(callable);
-        }
-        ExecutorService threadPool = Executors.newFixedThreadPool(splitNums);
+        List<Callable<Integer>> callableList = getTasks();
+        ExecutorService threadPool = Executors.newFixedThreadPool(this.numTasks);
         List<Future<Integer>> futures = callableList.stream().map(threadPool::submit)
                 .collect(Collectors.toList());
+
         int sum = 0;
         for (Future<Integer> future : futures) {
             try {
@@ -43,31 +35,28 @@ public class SummationParallel {
         return sum;
     }
 
-    /**
-     * Helper method to calculate the ranges of each split
-     * @param arrSize
-     * @param splitNums
-     * @return
-     */
-    public List<List<Integer>> getRanges(int arrSize, int splitNums){
-        int splitSize = arrSize/splitNums;
-        List<List<Integer>> lists = new ArrayList<>();
-        // find all but last range
-        for (int splitNum = 0; splitNum < splitNums - 1; splitNum++) {
-            int startIdx = splitNum * splitSize;
-            int endIdx = startIdx + splitSize - 1;
-            lists.add(List.of(startIdx, endIdx));
+    private List<Callable<Integer>> getTasks(){
+        List<Callable<Integer>> callableList = new ArrayList<>();
+
+        int splitSize = (int)Math.ceil((double)this.arr.length / this.numTasks);
+
+        for (int i = 0; i < this.numTasks; i++) {
+            int low = i * splitSize;
+            int high = Integer.min((i+1)*splitSize, this.arr.length);
+            Callable<Integer> callable = (() -> IntStream.range(low, high)
+                    .map(j -> SummationParallel.this.arr[j])
+                    .sum());
+            callableList.add(callable);
         }
-        // last range; calculated differently because this range will consist
-        // rest of the remaining element of the array
-        lists.add(List.of((splitNums-1) * splitSize, arrSize - 1));
-        return lists;
+        return callableList;
     }
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,9,10,11,12,13,14};
 //        int[] arr = {1, 2};
-        SummationParallel summationParallel = new SummationParallel(arr);
+        int numThreads = Integer.min(
+                Runtime.getRuntime().availableProcessors(), arr.length);
+        SummationParallel summationParallel = new SummationParallel(arr, numThreads);
         int ans = summationParallel.sum();
         System.out.println(ans);
     }
