@@ -11,7 +11,7 @@ public class SummationParallel {
     int numTasks;
     public SummationParallel(int[] arr, int numTasks){
         this.arr = arr;
-        this.numTasks = numTasks;
+        this.numTasks = Integer.min(numTasks, this.arr.length);
     }
 
     public int sum(){
@@ -53,9 +53,8 @@ public class SummationParallel {
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,9,10,11,12,13,14};
-//        int[] arr = {1, 2};
-        int numThreads = Integer.min(
-                Runtime.getRuntime().availableProcessors(), arr.length);
+//        int[] arr = {1,2};
+        int numThreads = Runtime.getRuntime().availableProcessors();
         SummationParallel summationParallel = new SummationParallel(arr, numThreads);
         int ans = summationParallel.sum();
         System.out.println(ans);
