@@ -8,12 +8,12 @@ import java.util.stream.IntStream;
 public class MergeSortForkJoin extends RecursiveAction {
     int[] arr;
     int low;
-    int high;
+    int high; // inlcusive
 
-    MergeSortForkJoin(int[] arr) {
+    public MergeSortForkJoin(int[] arr) {
         this(arr, 0, arr.length - 1);
     }
-    MergeSortForkJoin(int[] arr, int low, int high) {
+    public MergeSortForkJoin(int[] arr, int low, int high) {
         this.arr = arr;
         this.low = low;
         this.high = high;
