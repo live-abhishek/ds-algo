@@ -1,4 +1,4 @@
-package hackerearth.capillary_18_10;
+package hackerearth.capillary_2018_10;
 
 import java.io.FileInputStream;
 import java.util.Scanner;
