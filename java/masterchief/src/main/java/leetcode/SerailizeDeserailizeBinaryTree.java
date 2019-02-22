@@ -61,10 +61,9 @@ public class SerailizeDeserailizeBinaryTree {
         boolean isLeftTurn = true;
         for (int i = 1; i < nodes.length; i++) {
             TreeNode currNode = nodes[currNodePos];
-            if (currNode == null) {
-                currNodePos++;
+            while(currNode == null && currNodePos < nodes.length){
                 isLeftTurn = true;
-                continue;
+                currNode = nodes[++currNodePos];
             }
             if (isLeftTurn) {
                 currNode.left = nodes[i];
