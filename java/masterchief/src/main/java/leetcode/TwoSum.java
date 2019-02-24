@@ -7,18 +7,13 @@ public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], i);
-        }
-        for (int i = 0; i < nums.length; i++) {
-            int other = target - nums[i];
-            if (map.containsKey(other) && map.get(other) != i) {
-                return new int[]{i, map.get(other)};
+            int num = nums[i];
+            int comp = target - num;
+            if (map.containsKey(comp)) {
+                return new int[]{map.get(comp), i};
             }
+            map.put(num, i);
         }
-        return null;
-    }
-
-    public static void main(String[] args) {
-
+        return new int[]{};
     }
 }

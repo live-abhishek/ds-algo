@@ -1,0 +1,39 @@
+Singleton Serialization
+    Enum Singleton
+Segregate binary array
+
+Default size of HashMap, ArrayList, HashSet
+
+How HashSet, HashMap works
+
+Difference between Save & Update & SaveOrUpdate
+    Internal working
+    HQL
+
+Difference between session.load & session.get
+
+INNER JOIN syntax, (JOIN syntax)
+
+What is dispatcher servlet
+
+What is spring
+
+List.remove() // remember the parameter to the method
+
+What happens when null is passed as key to HashMap & HashSet
+
+IllegalStateException
+ConcurrentAccessException
+
+finally block
+    if there is any statement after finally block, will it execute
+throws vs throw
+
+Accessing the field via parent reference
+    What happens when child
+
+Method overloading vs overriding
+
+Difference between Array & ArrayList
+
+TreeMap Internal Working
