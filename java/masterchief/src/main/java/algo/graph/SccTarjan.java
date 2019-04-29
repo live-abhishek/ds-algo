@@ -10,7 +10,6 @@ public class SccTarjan {
         int num;
         int dfsNum = -1;
         int dfsLow = -1;
-        boolean visited;
         List<Node> nbrs = new ArrayList<>();
 
         Node(int num) {
@@ -52,21 +51,17 @@ public class SccTarjan {
             rootNode.dfsNum = rootNode.dfsLow = dfsNumCounter;
             dfsNumCounter++;
             stk.push(rootNode);
-            rootNode.visited = true;
             for (Node node : rootNode.nbrs) {
                 if (node.dfsNum == -1) {
                     findSccTarjan(node, components);
                 }
-                if (node.visited) {
-                    rootNode.dfsLow = Integer.min(rootNode.dfsLow, node.dfsLow);
-                }
+                rootNode.dfsLow = Integer.min(rootNode.dfsLow, node.dfsLow);
             }
             if (rootNode.dfsLow == rootNode.dfsNum) {
                 numScc++;
                 List<Node> component = new ArrayList<>();
                 while (true) {
                     Node node = stk.pop();
-                    node.visited = false;
                     component.add(node);
                     if (rootNode == node) {
                         break;
