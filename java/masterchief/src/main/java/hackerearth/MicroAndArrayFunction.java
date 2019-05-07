@@ -16,7 +16,7 @@ public class MicroAndArrayFunction {
             }
             Pair<Integer, Integer>[] pairs = new Pair[N];
             for (int i = 0; i < N; i++) {
-                pairs[i] = new Pair<>(arr[i], i + 1);
+                pairs[i] = new Pair<>(arr[i], i);
             }
             Arrays.sort(pairs);
             BIT bit = new BIT(N + 1);
@@ -29,7 +29,7 @@ public class MicroAndArrayFunction {
                     bit.update(pairs[front].v, pairs[front].v + 1);
                     front++;
                 }
-                ans += bit.query(idx) * (N - idx - 1);
+                ans += bit.query(idx) * (N - idx);
             }
             bit = new BIT(N + 1);
             int back = N-1;
@@ -40,7 +40,7 @@ public class MicroAndArrayFunction {
                     bit.update(pairs[back].v, pairs[back].v + 1);
                     back--;
                 }
-                ans += bit.query(idx) * (N - idx - 1);
+                ans += bit.query(idx) * (N - idx);
             }
             System.out.println(ans);
         }
