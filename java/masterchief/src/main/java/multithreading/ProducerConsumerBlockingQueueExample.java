@@ -6,7 +6,6 @@ import java.util.concurrent.BlockingQueue;
 public class ProducerConsumerBlockingQueueExample {
     public static void main(String[] args) {
         BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
-
         Runnable producer = () -> {
             int counter = 0;
             while (true) {

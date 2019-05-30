@@ -30,8 +30,8 @@ public class SqrtDecomposition {
                 sum += this.arr[i];
             }
         } else {
-            int firstBlockEndPos = (leftBlock + 1) * blockSize;
-            for (int i = l; i < firstBlockEndPos; i++) {
+            int secondBlockStart = (leftBlock + 1) * blockSize;
+            for (int i = l; i < secondBlockStart; i++) {
                 sum += this.arr[i];
             }
             for (int i = leftBlock + 1; i < rightBlock - 1; i++) {
