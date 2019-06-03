@@ -1,4 +1,9 @@
 {
-  "python.pythonPath": "/usr/bin/python3",
-  "editor.formatOnSave": true
+  "python.pythonPath": "C:\\Python36\\python.exe",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#5F0623",
+    "titleBar.activeBackground": "#850832",
+    "titleBar.activeForeground": "#FFFBFD"
+  }
 }
