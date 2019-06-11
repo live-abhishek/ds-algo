@@ -1,9 +1,6 @@
 package codingInterview.mergeIntervals;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class MaximumCPULoad {
 
@@ -20,8 +17,18 @@ public class MaximumCPULoad {
     }
 
     public static int findMaxCPULoad(List<Job> jobs) {
-        // TODO: Write your code here
-        return -1;
+        int maxLoad = 0, currLoad = 0;
+        jobs.sort(Comparator.comparingInt(a -> a.start));
+        PriorityQueue<Job> minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a.end));
+        for (Job job : jobs) {
+            while (!minHeap.isEmpty() && job.start > minHeap.peek().end) {
+                currLoad -= minHeap.poll().cpuLoad;
+            }
+            currLoad += job.cpuLoad;
+            maxLoad = Integer.max(maxLoad, currLoad);
+            minHeap.offer(job);
+        }
+        return maxLoad;
     }
 
     public static void main(String[] args) {
@@ -32,6 +39,9 @@ public class MaximumCPULoad {
         System.out.println("Maximum CPU load at any time: " + MaximumCPULoad.findMaxCPULoad(input));
 
         input = new ArrayList<Job>(Arrays.asList(new Job(1, 4, 2), new Job(2, 4, 1), new Job(3, 6, 5)));
+        System.out.println("Maximum CPU load at any time: " + MaximumCPULoad.findMaxCPULoad(input));
+
+        input = new ArrayList<Job>(Arrays.asList(new Job(1, 4, 1), new Job(3, 8, 1), new Job(5, 10, 1)));
         System.out.println("Maximum CPU load at any time: " + MaximumCPULoad.findMaxCPULoad(input));
     }
 }
