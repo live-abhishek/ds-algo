@@ -46,5 +46,7 @@ public class BinarySearch {
         System.out.println("Searching for 6 - in-built    : " + Arrays.binarySearch(arr, 6));
         System.out.println("Searching for 6 - lowerBound+1: " + lowerBound(arr, 6+1));
         System.out.println("Searching for 6 - upperBound  : " + upperBound(arr, 6));
+        arr = new int[]{0, 1, 2, 3};
+        System.out.println(lowerBound(arr, 2));
     }
 }
